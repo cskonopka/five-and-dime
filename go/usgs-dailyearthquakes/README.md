@@ -1,16 +1,16 @@
 # usgs-dailyearthquakes
 
+<h3 align="center">
+  <img height="255" width="253" src="https://i.ibb.co/19W631Z/usgs-dailyearthquakes-250x250.png"/>
+</h3>
+
 ### Get daily earthquake data from the USGS using Go. Use the USGS earthquake API endpoint to get a list of daily earthquake locations and magnitudes.*
 
 - [Dev.to](https://dev.to/cskonopka/get-daily-earthquake-data-from-the-usgs-using-go-45gl)
 
-![logo](https://i.ibb.co/19W631Z/usgs-dailyearthquakes-250x250.png)
+## Walkthrough
 
 Recently I started an earthquake sonification project and the first step is acquiring daily earthquake magnitudes from the USGS.
-
-![gif](https://i.ibb.co/ftZnDHk/usgs-dailyearthquakes.gif) 
-
-# Walkthrough
 
 Use the USGS URL below, open a browser and go to the following link. Note the *starttime* and *endtime* determine the date range of the results.
 ```
@@ -153,3 +153,10 @@ for q := 0; q < len(quakes); q++ {
 }
 ```
 
+Build the program.
+```go
+go build usgs-dailyearthquakes.go
+```
+
+List the earthquakes.
+![gif](https://i.ibb.co/ftZnDHk/usgs-dailyearthquakes.gif) 
