@@ -5,15 +5,14 @@
 echo "Provide a directory please :"
 read dir
 
-# Specify the filetype to target
+# Filetype target
 echo "Filetype?"
 read filetype
 
-# Iterate over the directory, look for specified filetype
+# Iterate over the directory, look for target filetype
 for f in $dir/*.$filetype
 do
     echo "Processing $f"
-    echo "${f%.*}.png"
     # Generate .png analysis file
     ffmpeg -y -ss 0 -t 11 -i $f -filter_complex "[0:v] palettegen" "${f%.*}.png"
     # Create .gif file
