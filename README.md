@@ -1,7 +1,7 @@
 # five-and-dime
 
 <p align="center">
-  <img width="65%" height="65%" src="https://i.ibb.co/PYK0p0t/5-dime-santa-fe-3.jpg"/>  
+  <img width="47%" height="47%" src="https://i.ibb.co/PYK0p0t/5-dime-santa-fe-3.jpg"/>  
 </p>
 
 *FFmpeg*
