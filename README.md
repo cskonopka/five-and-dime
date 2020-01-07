@@ -4,6 +4,9 @@
   <img width="47%" height="47%" src="https://i.ibb.co/PYK0p0t/5-dime-santa-fe-3.jpg"/>  
 </p>
 
+The five-and-dime is a place where you can find programming odds & ends.
+
+# projects
 *FFmpeg*
 - *dir-gen-gif*: Convert a directory of video content based on format type.
 
